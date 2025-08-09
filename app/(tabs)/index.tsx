@@ -8,6 +8,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import CartButton from "../../components/CartButton";
 import { SafeAreaView } from "react-native-safe-area-context";
 import cn from "clsx";
 export default function Index() {
@@ -75,6 +76,7 @@ export default function Index() {
             <Text className="text-xl bg-red-600 rounded-full p-2 text-white font-quicksand-bold">
               Cart
             </Text>
+            <CartButton />
           </View>
         )}
       />
